@@ -110,7 +110,7 @@ fun BenchScreen() {
                     )
                     Spacer(Modifier.height(12.dp))
                     LinearProgressIndicator(
-                        progress = { progress / 100f },
+                        progress = progress / 100f,
                         modifier = Modifier.fillMaxWidth().height(12.dp),
                         color = Color(0xFF4ADE80),
                         trackColor = Color(0xFF2A3050)
