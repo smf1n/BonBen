@@ -1,0 +1,3 @@
+-keep class com.phonebench.** { *; }
+-dontwarn kotlin.**
+-dontwarn androidx.**
