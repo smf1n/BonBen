@@ -239,7 +239,7 @@ fun ResultCard(result: BenchResult) {
 
             Spacer(Modifier.height(20.dp))
 
-            HorizontalDivider(color = Color(0xFF2A3050))
+            Divider(color = Color(0xFF2A3050))
 
             Spacer(Modifier.height(16.dp))
 
